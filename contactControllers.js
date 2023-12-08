@@ -1,8 +1,10 @@
+// const asyncHandler=require()
+const conatacts = require("./main/contactMain")
 // @desc Get all contacts
 // @route GET/api/contacts
 // @ access public
-const getContact = (req,res) =>{
-    res.status(200).json({message : "get all contacts"})
+const getContact =(req,res) =>{
+    res.status(200).json({message:"get all my contact"})
 };
 // @disc Post all contacts
 //@route POST/all/api/contacts/
@@ -15,7 +17,7 @@ const CreateContact = (req,res) =>{
 // @routes PUT/all/api/contacts/:id
 // @access public
 const updateContact =(req,res) =>{
-    res.status(202).json({message:"UPdate all my contacts"})
+    res.status(202).json({message:"Update all my contacts"})
 
 };
 // @disc Delete all contacts
